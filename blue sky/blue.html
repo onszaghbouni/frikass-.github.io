@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 ">
+	<meta http-equiv="x-UA-compatible" content="ie=edge">
+	<title>blue sky login</title>
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Quicksand" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+
+</head>
+<body>
+	<div class="main-div">
+		<form id="log in">
+		<center>
+		<h3>BLUE SKY PARC </h3>
+		</center>
+		<input type="email" placeholder="Email" id="email" required>
+		<input type="password" placeholder="Password" id="password" required>
+		<button>LOG IN</button>
+		</form>
+		
+
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+  // Initialize Firebase 
+  var config = {
+    apiKey: "AIzaSyDCWlccIRn8pL6AzxZtWKdd1dSEyTaxaVg",
+    authDomain: "hackathon-4e9d8.firebaseapp.com",
+    databaseURL: "https://hackathon-4e9d8.firebaseio.com",
+    projectId: "hackathon-4e9d8",
+    storageBucket: "hackathon-4e9d8.appspot.com",
+    messagingSenderId: "837088884604"
+  };
+  firebase.initializeApp(config);
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>blue sky login</title>
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<link rel="stylesheet" href="css/singup.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Quicksand" rel="stylesheet">
+
+</head>
+<body>
+	<div class="main-div">
+		<form id="sing up">
+		<center>
+		<h3>BLUE SKY PARC </h3>
+		</center>
+		<input type="email" placeholder="EMAIL" id="email" required>
+		<input type="password" placeholder="CREER UN MOT DE PASSE " id="password" required>
+		<input type="password" placeholder="CONFIRMER VOTRE MOT DE PASSE" id="password" required>
+		<input type="number" placeholder="numero de telephone" id="number" required>
+		<button>SIGN UP</button>
+		</form>
+
+	</div>
+	<script src="js/sign up.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDXSmgnkI0Ilqyxnh130KUCp92KpvOi6eQ",
+    authDomain: "sign-up-5471e.firebaseapp.com",
+    databaseURL: "https://sign-up-5471e.firebaseio.com",
+    projectId: "sign-up-5471e",
+    storageBucket: "sign-up-5471e.appspot.com",
+    messagingSenderId: "655785247332"
+  };
+  firebase.initializeApp(config);
+</script>
+
+</body>
+</html>

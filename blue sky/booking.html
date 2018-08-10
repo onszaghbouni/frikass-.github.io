@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Reservez ici </title>
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Quicksand" rel="stylesheet">
+
+</head>
+<body>
+	<div class="main-div">
+		<form id="log in">
+		<center>
+		<h2> BLUE SKY PARC </h2>
+		</center>
+		<input type="text" placeholder="Votre nom : " required>
+		<input type="email" placeholder="Votre Email :" required>
+        <label for="date">La date </label>
+        <input type="date" name="date" id="date" value="2018-08-10">
+        <label for="time"> a quel heure ? </label>
+        <input type="time" name="time" id="time" value="12:00">
+		<label for="numeric">Precisez le nombre de personnes accompagnes </label>
+        <input type="number" name="numeric" id="numeric" value="1">
+		<button>Valider</button>  <button> Consultez vos points </button>
+		</form>
+		
+
+	</div>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDCWlccIRn8pL6AzxZtWKdd1dSEyTaxaVg",
+    authDomain: "hackathon-4e9d8.firebaseapp.com",
+    databaseURL: "https://hackathon-4e9d8.firebaseio.com",
+    projectId: "hackathon-4e9d8",
+    storageBucket: "hackathon-4e9d8.appspot.com",
+    messagingSenderId: "837088884604"
+  };
+  firebase.initializeApp(config);
+</script>
+
+</body>
+</html>
